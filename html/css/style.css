@@ -2192,7 +2192,7 @@ ul.has-check ul li:before {
   width: 2700px;
   height: 262px;
   margin-left: -1335px;
-  transform: rotate(-5deg);
+  /* transform: rotate(-5deg); */
 }
 
 .ticker-wrap .ticker-bar {
@@ -2221,10 +2221,10 @@ ul.has-check ul li:before {
 }
 
 .ticker-wrap .ticker-bar:nth-child(2) {
-  /* clip-path: inset(0 0 0 1250px); */
+  clip-path: inset(0 0 0 1250px);
   /* left: 1250px;  width: 1500px; */
-  /* margin-left: -95px;
-    margin-top: -40px; */
+  margin-left: -95px;
+  margin-top: -40px;
   z-index: 2;
 }
 
@@ -2317,7 +2317,7 @@ ul.has-check ul li:before {
   z-index: 2;
   left: 1248px;
   height: 100%;
-  /* border-left: 2px solid #000; */
+  border-left: 2px solid #000;
 }
 
 .ticker-wrap.dark .ticker-bar {
